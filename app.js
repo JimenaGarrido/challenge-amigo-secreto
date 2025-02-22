@@ -34,3 +34,14 @@ function limpiarCaja(){
     document.getElementById('amigo').value = ""; 
     document.getElementById('listaAmigos').innerHTML = ""; 
 }
+
+function sortearAmigo(){
+    if (amigos.length > 0) {
+        limpiarCaja();
+        let posicionAleatoria = Math.floor(Math.random() * amigos.length);
+        let nombre = amigos[posicionAleatoria];
+        asignarTextoId('resultado', "El amigo sorteado secreto es: " + nombre);
+    } else {
+        alert('La lista está vacía');
+    }
+}
