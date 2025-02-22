@@ -1,2 +1,2 @@
 # challenge-amigo-secreto
-Es un desafío de la creación de una aplicación que permite a los usuarios ingresar nombres de amigos en una lista para después realizar un sorteo aleatorio y determinar quien es el "amigo secreto".
+Es un desafío de la creación de una aplicación que permite a los usuarios ingresar nombres de amigos en una lista para después realizar un sorteo aleatorio y determinar quien es el "amigo secreto". Al dar click en el boton añadir se agrega el nombre a la lista del arreglo creada y al dar click en el boton sortear amigo se selecciona un nombre de esa lista de forma aleatoria por medio de math.floor y math.random.
