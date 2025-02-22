@@ -13,6 +13,9 @@ El proyecto cuenta con dos funciones principales: agregar amigos a una lista y r
 </div>
 
 <li>Sortear amigo: Selecciona un nombre de la lista de manera aleatoria. Al hacer clic en el botón "Sortear Amigo", se elige un nombre al azar utilizando las funciones Math.random() y Math.floor(), garantizando una selección imparcial dentro de los elementos agregados previamente.
+<div align="center">
+  <img src="img/amigoSorteado.png" alt="Texto alternativo" width="600">
+</div>
   
 <h2>Autor</h2>
 Jimena Marlene Garrido Reyes
