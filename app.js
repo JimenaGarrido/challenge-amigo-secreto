@@ -29,3 +29,8 @@ function mostrarLista(){
         listaDeNombres.appendChild(nuevoElemento);
     }
 }
+
+function limpiarCaja(){
+    document.getElementById('amigo').value = ""; 
+    document.getElementById('listaAmigos').innerHTML = ""; 
+}
